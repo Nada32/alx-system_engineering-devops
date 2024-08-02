@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # hi s
 
-ssh-keygen -i -t RSA -f school -b 4096 -N betty
+ssh-keygen -t RSA -f school -b 4096 -N betty
