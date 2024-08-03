@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # hi s
 
-cat ~/school/id_rsa.pub | ssh username@remote_host "mkdir -p ~/school && cat >> ~/school/authorized_keys"
+cat ~/.ssh/school/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh/school && cat >> ~/.ssh/school/authorized_keys"
